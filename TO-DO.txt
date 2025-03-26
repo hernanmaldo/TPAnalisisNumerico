@@ -1,0 +1,7 @@
+- Ver como mierda funciona la APiGeogebra
+- Crear servicio para validar funciones ingresadas por el usuario
+- Crear servicio para encontrar raiz
+- Crear Interfaz metodologia para definir los metodos comunes que el servicio usara
+	. Calcular Xr
+	. Iterar
+-  

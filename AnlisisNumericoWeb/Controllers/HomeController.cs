@@ -15,7 +15,11 @@ namespace AnlisisNumericoWeb.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            ISErvice aaa = new Service();
+
+            aaa.HacerAlgo();
+
+            return Ok();
         }
 
         public IActionResult Privacy()
