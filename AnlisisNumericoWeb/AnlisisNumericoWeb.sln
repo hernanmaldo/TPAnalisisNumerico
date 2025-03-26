@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnlisisNumericoWeb", "AnlisisNumericoWeb.csproj", "{B83DE399-0D34-41B3-8B17-9ADDB4E63686}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B83DE399-0D34-41B3-8B17-9ADDB4E63686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83DE399-0D34-41B3-8B17-9ADDB4E63686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83DE399-0D34-41B3-8B17-9ADDB4E63686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83DE399-0D34-41B3-8B17-9ADDB4E63686}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B30EBB52-6865-49A2-B404-584F0C03CD91}
+	EndGlobalSection
+EndGlobal
