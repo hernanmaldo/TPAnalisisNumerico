@@ -1,8 +1,45 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewBag.Title = "GeoGebra con Botón";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>GeoGebra - Inyectar función al presionar botón</h2>
+
+
+<button onclick="graficarFuncion()">Mostrar función</button>
+
+<div id="applet_container" style="width:600px; height:400px; margin-top: 20px;"></div>
+
+
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+<script>
+    let ggbApp = null;
+
+    window.addEventListener("load", function () {
+        ggbApp = new GGBApplet({
+            appName: "graphing",
+            width: 600,
+            height: 400,
+            showToolBar: false,
+            showAlgebraInput: true,
+            showMenuBar: false
+        }, true);
+
+        ggbApp.inject("applet_container");
+    });
+
+    function graficarFuncion() {
+        const ggb = ggbApp.getAppletObject();
+
+        if (ggb && ggb.evalCommand) {
+            try {
+                ggb.evalCommand("f(x) = x^2 + 2*x + 1"); // traer la funcion del back
+                console.log("Función graficada con éxito.");
+            } catch (error) {
+                console.error("Error al graficar la función:", error);
+            }
+        } else {
+            alert("GeoGebra aún no está listo.");
+        }
+    }
+</script>

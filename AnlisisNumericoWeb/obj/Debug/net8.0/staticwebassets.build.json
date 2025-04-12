@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5Crp7Pf1c/8sp4ALHY7cBUxCuaRF+bTaxvLakkNTLIg=",
+  "Hash": "gxuY6Obfa5m+twaIR61AnTpB+LE+eYAgJvcPg1fvy1g=",
   "Source": "AnlisisNumericoWeb",
   "BasePath": "_content/AnlisisNumericoWeb",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\GeoGebra.js",
+      "SourceId": "AnlisisNumericoWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\",
+      "BasePath": "_content/AnlisisNumericoWeb",
+      "RelativePath": "js/GeoGebra.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\GeoGebra.js"
     },
     {
       "Identity": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\site.js",

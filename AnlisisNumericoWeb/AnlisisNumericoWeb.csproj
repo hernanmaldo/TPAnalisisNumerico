@@ -10,4 +10,10 @@
     <Folder Include="NewFolder\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Calculus">
+      <HintPath>..\..\..\Calculus-C-dll-and-Java-Android--master\Calculus.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

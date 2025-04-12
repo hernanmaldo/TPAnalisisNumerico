@@ -15,11 +15,11 @@ namespace AnlisisNumericoWeb.Controllers
 
         public IActionResult Index()
         {
-            ISErvice aaa = new Service();
+            ISErvice aaa = new AnlisisNumericoWeb.Models.Service();
 
             aaa.HacerAlgo();
 
-            return Ok();
+            return View();
         }
 
         public IActionResult Privacy()

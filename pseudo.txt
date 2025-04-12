@@ -1,0 +1,87 @@
+Ingresar funcion, iteraciones, tolerancia, xi, xd, método
+Controlar campos vacíos
+Evaluar sintaxis funcion
+
+SI (funcion(xi) * funcion(xd) > 0) ENTONCES
+|  Volver a ingresar xi, xd
+SINO SI (funcion(xi) * funcion(xd) == 0) ENTONCES
+|  SI (funcion(xi) == 0) ENTONCES
+|  |  xi es raíz
+|  SINO
+|  |  xd es raíz
+|  FIN SI
+SINO
+|  xrAnterior, xr, error = 0
+|  PARA (i = 1 a iteraciones) HACER
+|  |  xr = CalcularXr(método, funcion, xi, xd)
+|  |  error = abs((xr - xrAnterior) / xr)
+|  |  SI (abs(funcion(xr)) < tolerancia o error < tolerancia) ENTONCES
+|  |  |  xr es raíz
+|  |  |  break (punto de corte del bucle)
+|  |  SINO
+|  |  |  SI (funcion(xi) * funcion (xr) > 0) ENTONCES
+|  |  |  |  xi = xr
+|  |  |  SINO
+|  |  |  |  xd = xr
+|  |  |  FIN SI
+|  |  |  xrAnterior = xr
+|  |  FIN SI
+|  FIN PARA
+|  Devuelve xr como está por superar iteraciones
+FIN SI
+
+
+Método CalcularXr()
+	- Si es método bisección --> xr = (xi + xd) / 2
+	- Si es método regla falsa --> xr = (funcion(xd) * xi - funcion(xi) * xd) / (funcion(xd) - funcion(xi))
+
+------
+
+Ingresar funcion, iteraciones, tolerancia, xi, método
+Controlar campos vacíos
+Evaluar sintaxis funcion
+
+SI (abs(funcion(xi)) < tolerancia) ENTONCES
+|  xi es raíz
+SINO SI (método = 'Secante' y abs(funcion(xd)) < tolerancia) ENTONCES
+|  xd es raíz
+SINO
+|  xrAnterior, xr, error = 0
+|  PARA (i = 1 a iteraciones) HACER
+|  |  xr = CalcularXr(método, funcion, xi, xd)
+|  |  SI (xr es NaN) ENTONCES
+|  |  |  El método diverge. No encuentra raíz
+|  |  |  break (corte del bucle)
+|  |  FIN SI
+|  |  error = abs((xr - xrAnterior) / xr)
+|  |  SI (abs(funcion(xr)) < tolerancia o error < tolerancia) ENTONCES
+|  |  |  xr es raíz
+|  |  |  break
+|  |  SINO
+|  |  |  SI (método = 'tangente') ENTONCES
+|  |  |  |  xi = xr
+|  |  |  SINO
+|  |  |  |  xi = xd
+|  |  |  |  xd = xr
+|  |  |  FIN SI
+|  |  |  xrAnterior = xr
+|  |  FIN SI
+|  FIN PARA
+|  Devuelve xr como está por superar iteraciones
+FIN SI
+
+
+Método CalcularXr()
+	- Tangente 
+		derivada = Dx(xi) --> Usamos el método que nos brinda la librería Calculus (analizadorFuncion.Dx(xi))
+		SI (derivada < tolerancia o derivada es NaN) ENTONCES
+		|  El método diverge. No encuentra raíz.
+		SINO
+		|  xr = xi - (funcion(xi)/derivada)
+		FIN SI
+		
+		NOTA: Sino se utiliza Dx(xi), se calcula la derivada con la fórmula aproximada:
+			- derivada = (funcion(xi + 0.0001) - funcion(xi)) / 0.0001
+
+	- Secante (igual a la Regla falsa)
+		xr = (funcion(xd) * xi - funcion(xi) * xd) / (funcion(xd) - funcion(xi))

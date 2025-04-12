@@ -29,3 +29,6 @@ C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNum
 C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Debug\net8.0\AnlisisNumericoWeb.pdb
 C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Debug\net8.0\AnlisisNumericoWeb.genruntimeconfig.cache
 C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Debug\net8.0\ref\AnlisisNumericoWeb.dll
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Debug\net8.0\AnlisisNumericoWeb.csproj.AssemblyReference.cache
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\bin\Debug\net8.0\Calculus.dll
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Debug\net8.0\AnlisisN.9D221BAC.Up2Date

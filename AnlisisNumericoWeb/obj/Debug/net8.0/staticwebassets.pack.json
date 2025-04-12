@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\GeoGebra.js",
+      "PackagePath": "staticwebassets\\js\\GeoGebra.js"
+    },
+    {
       "Id": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
