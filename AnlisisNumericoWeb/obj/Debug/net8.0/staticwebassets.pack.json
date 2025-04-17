@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\AnlisisNumericoWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\css\\raices.css",
+      "PackagePath": "staticwebassets\\css\\raices.css"
+    },
+    {
       "Id": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -15,6 +19,10 @@
     {
       "Id": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\GeoGebra.js",
       "PackagePath": "staticwebassets\\js\\GeoGebra.js"
+    },
+    {
+      "Id": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\raices.js",
+      "PackagePath": "staticwebassets\\js\\raices.js"
     },
     {
       "Id": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\site.js",

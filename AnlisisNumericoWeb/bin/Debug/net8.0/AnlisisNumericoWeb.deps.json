@@ -8,12 +8,30 @@
     ".NETCoreApp,Version=v8.0": {
       "AnlisisNumericoWeb/1.0.0": {
         "dependencies": {
+          "DynamicExpresso.Core": "2.19.0",
           "Calculus": "1.0.0.0"
         },
         "runtime": {
           "AnlisisNumericoWeb.dll": {}
         }
       },
+      "DynamicExpresso.Core/2.19.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DynamicExpresso.Core.dll": {
+            "assemblyVersion": "2.19.0.0",
+            "fileVersion": "2.19.0.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/de/DynamicExpresso.Core.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
       "Calculus/1.0.0.0": {
         "runtime": {
           "Calculus.dll": {
@@ -29,6 +47,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "DynamicExpresso.Core/2.19.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MsDiD4ivruP/sjHqsr3tY9Yo1vGyZPBEw03LRaoV7s6hK224rII7lJ6y+3rFry+ccUZHhMKdDGkb6zR91VyBXQ==",
+      "path": "dynamicexpresso.core/2.19.0",
+      "hashPath": "dynamicexpresso.core.2.19.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Calculus/1.0.0.0": {
       "type": "reference",

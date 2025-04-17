@@ -32,3 +32,5 @@ C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNum
 C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Debug\net8.0\AnlisisNumericoWeb.csproj.AssemblyReference.cache
 C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\bin\Debug\net8.0\Calculus.dll
 C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Debug\net8.0\AnlisisN.9D221BAC.Up2Date
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\bin\Debug\net8.0\DynamicExpresso.Core.dll
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\bin\Debug\net8.0\de\DynamicExpresso.Core.resources.dll

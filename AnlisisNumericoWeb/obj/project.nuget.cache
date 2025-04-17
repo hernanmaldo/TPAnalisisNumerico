@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZveXf7T2ovDihD/NBOaAdrJQYhBIdnaXLBh8OaHlu5BXrci9eLXMnvQefUo3rq29JXacUoAhiDndIgoAu8llnA==",
+  "dgSpecHash": "xqJKM1SAvtuHX0LXgyUSvthF1BXHHYsMd9XPt+diDkoRtCChRg+XqCyehKWBjMqeSHnzIVxDIbrZpcF/iNus9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\AnlisisNumericoWeb.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\herna\\.nuget\\packages\\dynamicexpresso.core\\2.19.0\\dynamicexpresso.core.2.19.0.nupkg.sha512",
+    "C:\\Users\\herna\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
