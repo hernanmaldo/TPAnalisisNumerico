@@ -26,8 +26,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFpY2VzXEluZGV4LmNzaHRtbA==
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/Biseccion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFpY2VzXEJpc2VjY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/ReglaFalsa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFpY2VzXFJlZ2xhRmFsc2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/Secante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFpY2VzXFNlY2FudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/Tangente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFpY2VzXFRhbmdlbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Shared/Error.cshtml]

@@ -7,9 +7,9 @@ namespace AnlisisNumericoWeb.Service
         {
             switch (metodo.ToLower())
             {
-                case "bisección":
+                case "biseccion":
                     return (xi + xd) / 2;
-                case "regla falsa":
+                case "reglafalsa":
                 case "secante":
                     double fxi = f(xi);
                     double fxd = f(xd);
@@ -32,7 +32,7 @@ namespace AnlisisNumericoWeb.Service
             double fx = f(xi);
             if (Math.Abs(fx) < tolerancia) return xi;
 
-            if ((metodo.ToLower() == "bisección" || metodo.ToLower() == "regla falsa") && xd.HasValue)
+            if ((metodo.ToLower() == "biseccion" || metodo.ToLower() == "reglafalsa") && xd.HasValue)
             {
                 double fxi = f(xi);
                 double fxd = f(xd.Value);
@@ -71,7 +71,7 @@ namespace AnlisisNumericoWeb.Service
                 {
                     xi = xr;
                 }
-                else if (metodo.ToLower() == "bisección" || metodo.ToLower() == "regla falsa" || metodo.ToLower() == "secante")
+                else if (metodo.ToLower() == "biseccion" || metodo.ToLower() == "reglafalsa" || metodo.ToLower() == "secante")
                 {
                     if (f(xi) * f(xr) > 0)
                         xi = xr;

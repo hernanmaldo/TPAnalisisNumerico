@@ -13,14 +13,14 @@
     <header>
         <div class="menu-container">
             <div class="menu-item" onclick="toggleSubmenu()">Raíces de funciones ▾</div>
-            <div class="sub-menu" id="submenu" style="display: none; margin-left: 20px;">
-                <div class="menu-item active" onclick="showSection('biseccion')">Bisección</div>
-                <div class="menu-item" onclick="showSection('regla')">Regla Falsa</div>
-                <div class="menu-item" onclick="showSection('newton')">Newton-Raphson</div>
-                <div class="menu-item" onclick="showSection('secante')">Secante</div>
+            <a class="sub-menu" id="submenu" style="display: none; margin-left: 20px;">
+                <a class="menu-item" asp-controller="Raices" asp-action="Biseccion">Bisección</a>
+                <a class="menu-item" asp-controller="Raices" asp-action="ReglaFalsa">Regla Falsa</a>
+                <a class="menu-item" asp-controller="Raices" asp-action="Tangente">Newton-Raphson</a>
+                <a class="menu-item" asp-controller="Raices" asp-action="Secante">Secante</a>
             </div>
         </div>
-        </nav>
+        
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -38,6 +38,9 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
 </html>
 <script src="~/js/Raices.js"></script>
 

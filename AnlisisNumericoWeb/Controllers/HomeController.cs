@@ -13,12 +13,10 @@ namespace AnlisisNumericoWeb.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Biseccion()
         {
-            ISErvice aaa = new AnlisisNumericoWeb.Models.Service();
-
-            aaa.HacerAlgo();
-
+     
             return View();
         }
 

@@ -1,0 +1,62 @@
+﻿@model RaizData
+<head>
+    <meta charset="UTF-8">
+    <title>Métodos Numéricos</title>
+    <link rel="stylesheet" src=".\css\Raices.css">
+</head>
+<body>
+    <div class="container-principal" id="conteiner-pr" style="display: flex">
+
+        <!-- NEWTON-RAPHSON -->
+        <div class="content" id="newton">
+            <div class="form-container">
+                <h2>Método de Newton-Raphson</h2>
+                <form asp-action="Calcular" method="post">
+                    <input type="hidden" name="metodo" value="Tangente" />
+
+                    <label for="funcion">Función:</label>
+                    <input type="text" id="funcion-newton" name="Funcion" asp-for="Funcion" />
+                    <span asp-validation-for="Funcion" class="text-danger"></span>
+
+                    <label for="punto">Punto inicial:</label>
+                    <input type="number" id="punto" name="Xi" step="any" asp-for="Xi" />
+                    <span asp-validation-for="Xi" class="text-danger"></span>
+
+                    <label for="tolerancia">Tolerancia:</label>
+                    <input type="number" id="tolerancia" name="Tolerancia" step="any" asp-for="Tolerancia" />
+                    <span asp-validation-for="Tolerancia" class="text-danger"></span>
+
+                    <label for="iteraciones">Iteraciones máximas:</label>
+                    <input type="number" id="iteraciones" name="Iteraciones" asp-for="Iteraciones" />
+                    <span asp-validation-for="Iteraciones" class="text-danger"></span>
+
+                    <button type="submit">Calcular</button>
+                </form>
+
+
+            </div>
+        </div>
+
+        <div class="applet-container" style="display: block">
+            <div class="applet-graph" id="applet_container"></div>
+            <div class="resultado">
+                @if (Model != null && Model.Raiz != 0)  // Solo si ya se calculó
+                {
+
+                    <label>Raíz aproximada: @Model.Raiz </label>
+                }
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+</html>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="~/js/GeoGebra.js">
+
+</script>

@@ -1,0 +1,66 @@
+﻿@model RaizData
+<head>
+    <meta charset="UTF-8">
+    <title>Métodos Numéricos</title>
+    <link rel="stylesheet" src=".\css\Raices.css">
+</head>
+<body>
+    <div class="container-principal" id="conteiner-pr" style="display: flex">
+        <!-- REGLA FALSA -->
+        <div class="content" id="regla">
+            <div class="form-container">
+                <h2>Regla Falsa</h2>
+                <form asp-action="Calcular" method="post">
+                    <input type="hidden" name="metodo" value="ReglaFalsa" />
+
+                    <label for="funcion-regla">Función:</label>
+                    <input type="text" id="funcion-biseccion" name="Funcion" asp-for="Funcion" />
+                    <span asp-validation-for="Funcion" class="text-danger"></span>
+
+                    <label for="limite-inferior-regla">Límite inferior:</label>
+                    <input type="number" id="limite-inferior-regla" name="Xi" step="any" asp-for="Xi" />
+                    <span asp-validation-for="Xi" class="text-danger"></span>
+
+                    <label for="limite-superior-regla">Límite superior:</label>
+                    <input type="number" id="limite-superior-regla" name="Xd" step="any" asp-for="Xd" />
+                    <span asp-validation-for="Xd" class="text-danger"></span>
+
+                    <label for="tolerancia-regla">Tolerancia:</label>
+                    <input type="number" id="tolerancia-regla" name="Tolerancia" step="any" asp-for="Tolerancia" />
+                    <span asp-validation-for="Tolerancia" class="text-danger"></span>
+
+                    <label for="iteraciones-regla">Iteraciones máximas:</label>
+                    <input type="number" id="iteraciones-regla" name="Iteraciones" asp-for="Iteraciones" />
+                    <span asp-validation-for="Iteraciones" class="text-danger"></span>
+
+                    <button type="submit">Calcular</button>
+                </form>
+
+
+            </div>
+        </div>
+
+
+        <div class="applet-container" style="display: block">
+            <div class="applet-graph" id="applet_container"></div>
+            <div class="resultado">
+                @if (Model != null && Model.Raiz != 0)  // Solo si ya se calculó
+                {
+
+                    <label>Raíz aproximada: @Model.Raiz </label>
+                }
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+</html>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="~/js/GeoGebra.js">
+
+</script>

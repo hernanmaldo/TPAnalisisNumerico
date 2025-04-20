@@ -3,6 +3,7 @@ using AnlisisNumericoWeb.Service;
 using DynamicExpresso;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Diagnostics;
 
 namespace AnlisisNumericoWeb.Controllers
 {
@@ -13,37 +14,63 @@ namespace AnlisisNumericoWeb.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Calcular(RaizData model)
+
+        [HttpGet]
+        public IActionResult Biseccion()
         {
-            if (ModelState.IsValid)
-            {
-                var funcion1 = model.Funcion.Replace("f(x) = ", "");
-
-                var funcion = ParseFunc(funcion1);
-                Console.WriteLine(funcion.ToString());
-
-                var raiz = RaicesService.CalcularXr("bisección", funcion , model.Xi, model.Xd);
-
-                 model.Raiz = raiz;   
-
-                return View("Index", model);
-            }
-
-            return View(model); 
-
+            return View();
         }
+
+        [HttpGet]
+        public IActionResult ReglaFalsa()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Tangente()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Secante()
+        {
+            return View();
+        }
+
+
+        [HttpPost("Calcular")]
+        public IActionResult Calcular(string metodo, RaizData model)
+        {
+            if (!ModelState.IsValid)
+            {
+
+
+                return View(metodo, model);
+            }
+            var func = model.Funcion.Replace("f(x) = ", "").Replace(" ", "");
+
+            var funcion = ParseFunc(func);
+            Console.WriteLine(funcion.ToString());
+
+            var raiz = RaicesService.BuscarRaiz(funcion, metodo, model.Iteraciones, model.Tolerancia, model.Xi, model.Xd);
+
+            model.Raiz = raiz;
+
+            return View(metodo, model);
+        }
+    
 
 
         public Func<double, double> ParseFunc(string func)
         {
             var interpreter = new Interpreter();
-
-        
+   
             var function = interpreter.ParseAsDelegate<Func<double, double>>(func, "x");
-
+            Debug.WriteLine(function(5));
             return function;
-        }
+        }   
 
 
 }

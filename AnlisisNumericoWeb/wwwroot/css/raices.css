@@ -45,7 +45,7 @@ body {
 }
 
 .content {
-    display: none;
+    display: block;
     margin: auto;
     padding: 10px;
     color: black;
@@ -94,5 +94,9 @@ input, label {
 .applet-container{
     display: flex;
 
+}
+
+.resultado{
+    display: flex
 }
 
