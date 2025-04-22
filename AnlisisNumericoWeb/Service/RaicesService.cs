@@ -15,7 +15,8 @@ namespace AnlisisNumericoWeb.Service
                     double fxd = f(xd);
                     return (fxd * xi - fxi * xd) / (fxd - fxi);
                 case "tangente":
-                    double derivada = (f(xi + 0.0001) - f(xi)) / 0.0001;
+                    double h = 1e-5;
+                    double derivada = (f(xi + h) - f(xi - h)) / (2 * h);
                     if (double.IsNaN(derivada) || Math.Abs(derivada) < 1e-12)
                         throw new InvalidOperationException("Derivada muy cercana a cero o no definida");
                     return xi - f(xi) / derivada;

@@ -4,6 +4,7 @@ using DynamicExpresso;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Diagnostics;
+using System.Reflection;
 
 namespace AnlisisNumericoWeb.Controllers
 {
@@ -53,12 +54,21 @@ namespace AnlisisNumericoWeb.Controllers
 
             var funcion = ParseFunc(func);
             Console.WriteLine(funcion.ToString());
+            try
+            {
+                var raiz = RaicesService.BuscarRaiz(funcion, metodo, model.Iteraciones, model.Tolerancia, model.Xi, model.Xd);
 
-            var raiz = RaicesService.BuscarRaiz(funcion, metodo, model.Iteraciones, model.Tolerancia, model.Xi, model.Xd);
+                model.Raiz = raiz;
 
-            model.Raiz = raiz;
+                return View(metodo, model);
+            }
+            catch(Exception ex)
+            {
+                ViewBag.Error = "Ocurrió un error: " + ex.Message;
+                return View(metodo,model);
+            }
 
-            return View(metodo, model);
+      
         }
     
 
