@@ -6,6 +6,7 @@ using System;
 using System.Diagnostics;
 using System.Reflection;
 
+
 namespace AnlisisNumericoWeb.Controllers
 {
     public class RaicesController : Controller
@@ -46,17 +47,26 @@ namespace AnlisisNumericoWeb.Controllers
         {
             if (!ModelState.IsValid)
             {
-
-
                 return View(metodo, model);
             }
             var func = model.Funcion.Replace("f(x) = ", "").Replace(" ", "");
 
-            var funcion = ParseFunc(func);
-            Console.WriteLine(funcion.ToString());
+
+            Func<double, double> funcion; 
             try
             {
-                var raiz = RaicesService.BuscarRaiz(funcion, metodo, model.Iteraciones, model.Tolerancia, model.Xi, model.Xd);
+                funcion = ParseFunc(func);
+
+            }catch(Exception ex)
+            {
+                ViewBag.Error = "Ocurrió un error: Funcion incorrecta";
+
+                return View(metodo, model);
+            }
+      
+            try
+            {
+                var raiz = RaicesService.BuscarRaiz(funcion, metodo,model);
 
                 model.Raiz = raiz;
 
@@ -78,7 +88,7 @@ namespace AnlisisNumericoWeb.Controllers
             var interpreter = new Interpreter();
    
             var function = interpreter.ParseAsDelegate<Func<double, double>>(func, "x");
-            Debug.WriteLine(function(5));
+            //Debug.WriteLine(function(5));
             return function;
         }   
 

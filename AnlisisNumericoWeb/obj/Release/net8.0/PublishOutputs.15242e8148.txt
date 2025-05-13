@@ -1,0 +1,10 @@
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Release\net8.0\PubTmp\Out\AnlisisNumericoWeb.exe
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Release\net8.0\PubTmp\Out\AnlisisNumericoWeb.dll
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Release\net8.0\PubTmp\Out\AnlisisNumericoWeb.deps.json
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Release\net8.0\PubTmp\Out\AnlisisNumericoWeb.runtimeconfig.json
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Release\net8.0\PubTmp\Out\AnlisisNumericoWeb.pdb
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Release\net8.0\PubTmp\Out\DynamicExpresso.Core.dll
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Release\net8.0\PubTmp\Out\de\DynamicExpresso.Core.resources.dll
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Release\net8.0\PubTmp\Out\Calculus.dll

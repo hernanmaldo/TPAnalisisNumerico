@@ -14,7 +14,7 @@
                     <input type="hidden" name="metodo" value="ReglaFalsa" />
 
                     <label for="funcion-regla">Función:</label>
-                    <input type="text" id="funcion-biseccion" name="Funcion" asp-for="Funcion" />
+                    <input type="text" id="funcion" name="Funcion" asp-for="Funcion" />
                     <span asp-validation-for="Funcion" class="text-danger"></span>
 
                     <label for="limite-inferior-regla">Límite inferior:</label>
@@ -44,10 +44,11 @@
         <div class="applet-container" style="display: block">
             <div class="applet-graph" id="applet_container"></div>
             <div class="resultado">
-                @if (Model != null && Model.Raiz != 0)  // Solo si ya se calculó
+                @if (Model != null)  // Solo si ya se calculó
                 {
 
                     <label>Raíz aproximada: @Model.Raiz </label>
+                    <label>Iteraciones: @Model.Iteraciones</label>
                 }
             </div>
         </div>

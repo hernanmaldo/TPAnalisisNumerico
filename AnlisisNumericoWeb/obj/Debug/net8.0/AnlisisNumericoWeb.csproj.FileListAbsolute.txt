@@ -34,3 +34,8 @@ C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNum
 C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\obj\Debug\net8.0\AnlisisN.9D221BAC.Up2Date
 C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\bin\Debug\net8.0\DynamicExpresso.Core.dll
 C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\bin\Debug\net8.0\de\DynamicExpresso.Core.resources.dll
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\bin\Debug\net8.0\wwwroot\css\raices.css
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\bin\Debug\net8.0\wwwroot\css\site.css
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\bin\Debug\net8.0\wwwroot\js\GeoGebra.js
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\bin\Debug\net8.0\wwwroot\js\raices.js
+C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\bin\Debug\net8.0\wwwroot\js\site.js

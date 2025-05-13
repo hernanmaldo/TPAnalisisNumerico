@@ -18,9 +18,9 @@ namespace AnlisisNumericoWeb.Models
         public double Tolerancia { get; set; }
 
         [Required(ErrorMessage = "Debes indicar el número de iteraciones.")]
-        [Range(1, 1000, ErrorMessage = "Debe ser entre 1 y 100.")]
+        [Range(1, 1000, ErrorMessage = "Debe ser entre 1 y 1000.")]
         public int Iteraciones { get; set; }
-        public double Raiz {  get; set; }
+        public double? Raiz { get; set; } = null;
 
     }
 }
