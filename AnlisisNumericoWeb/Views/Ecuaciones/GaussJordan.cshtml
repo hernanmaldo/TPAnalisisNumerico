@@ -1,0 +1,170 @@
+﻿@model EcuacionesModel
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Métodos Numéricos</title>
+    <link rel="stylesheet" href="~/css/Ecuaciones.css" />
+</head>
+<body>
+
+
+    <div class="ajustar-section">
+        <label for="matrixSize">Cantidad de filas y columnas</label>
+        <form asp-controller="Ecuaciones" asp-action="Ajustar" method="post" class="input-row">
+            <input type="number"
+                   id="size"
+                   name="size"
+                   value="@(Model.MatrizTexto?.Count ?? 3)"
+                   min="2"
+                   max="10" />
+            <button type="submit" class="opt-button">Ajustar</button>
+        </form>
+    </div>
+    <div class="container">
+        <form asp-action="Resolver" method="post">
+             <div class="form-section">
+                <div id="matrix-container" class="matrix-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                @for (int col = 0; col < (Model.MatrizTexto?.Count ?? 3); col++)
+                                {
+                                    <th>x@(col + 1)</th>
+                                }
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int row = 0; row < (Model.MatrizTexto?.Count ?? 3); row++)
+                            {
+                                <tr>
+                                    @for (int col = 0; col < (Model.MatrizTexto?.Count ?? 3); col++)
+                                    {
+                                        <td>
+                                            <input
+                                                type="text"
+                                              
+                                                name="MatrizTexto[@row][@col]"
+                                                value="@(Model.Matriz?[row][col])"
+                                        
+                                                required
+                                            />
+                                        </td>
+                                    }
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Términos Independientes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int row = 0; row < (Model.VectorIndependienteTexto?.Count ?? 3); row++)
+                            {
+                                <tr>
+                                    <td>
+                                        <input
+                                            type="text"
+                                          
+                                            name="VectorIndependienteTexto[@row]"
+                                            value="@(Model.VectorIndependiente?[row] ?? 0)"
+                                            required
+                                        />
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <label for="Metodo">Método</label>
+                <select id="Metodo" name="Metodo">
+                    <option value="gauss-jordan" selected>
+                        Gauss-Jordan
+                    </option>
+                    <option value="gauss-seidel" >
+                        Gauss-Seidel
+                    </option>
+                </select>
+
+                <label for="Tolerancia">Tolerancia</label>
+                <input
+                    type="number"
+                    step="any"
+                    id="Tolerancia"
+                    name="Tolerancia"
+                    value="0.01"
+                    asp-for="Tolerancia"
+                    required
+                />
+
+                <label for="Iteraciones">Iteraciones máximas</label>
+                <input
+                    type="number"
+                    id="Iteraciones"
+                    name="Iteraciones"
+                    value="100"
+                    required
+                
+                />
+
+                <button type="submit" class="calculate-btn">Calcular</button>
+            </div>
+        </form>
+            <div class="result-section">
+                <h2>Resultado</h2>
+                <ul>
+                    @if (Model.Incognitas != null && Model.Incognitas.Count > 0)
+                    {
+                        @for (int i = 0; i < Model.Incognitas.Count; i++)
+                        {
+                            <li>x@(i + 1) = <span>@Model.Incognitas[i]</span></li>
+                        }
+                    }
+                    else
+                    {
+                        <li>x1 = <span>-</span></li>
+                        <li>x2 = <span>-</span></li>
+                        <li>x3 = <span>-</span></li>
+                    }
+                </ul>
+
+                <div class="method-buttons">
+                    <button
+                        type="button"
+                        class="@(Model.Metodo == "gauss-jordan" ? "selected" : "")"
+                        onclick="setMetodo('gauss-jordan')"
+                    >
+                        Gauss-Jordan
+                    </button>
+                    <button
+                        type="button"
+                        class="@(Model.Metodo == "gauss-seidel" ? "selected" : "")"
+                        onclick="setMetodo('gauss-seidel')"
+                    >
+                        Gauss-Seidel
+                    </button>
+                </div>
+            </div>
+       
+    </div>
+
+    <script>
+        function adjustMatrix() {
+            const size = document.getElementById("matrixSize").value;
+            // Recargar la página con parámetro size para que el controlador regenere matriz
+            window.location.href = "?size=" + size;
+        }
+
+        function setMetodo(metodo) {
+            document.getElementById("Metodo").value = metodo;
+        }
+    </script>
+</body>
+</html>
+

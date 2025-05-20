@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnlisisNumericoWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac382fb39a9d6fc89ffc865bbc66ec0e0f63f456")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e342de00c865876db51eb58a3d59cd0d52930b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnlisisNumericoWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnlisisNumericoWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,11 +1,8 @@
-﻿using AnlisisNumericoWeb.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using AnlisisNumericoWeb.Models;
 using AnlisisNumericoWeb.Service;
-using DynamicExpresso;
-using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Diagnostics;
-using System.Reflection;
-using static AnlisisNumericoWeb.Service.EcuacionesService;
+using System.Globalization;
 
 namespace AnlisisNumericoWeb.Controllers
 {
@@ -14,7 +11,32 @@ namespace AnlisisNumericoWeb.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View(new EcuacionesModel());
+            // Inicializa una matriz 3x3 con ceros y un vector independiente con ceros
+            var model = new EcuacionesModel
+            {
+                Matriz = Enumerable.Range(0, 4)
+                                   .Select(_ => Enumerable.Repeat(0.0, 4).ToList())
+                                   .ToList(),
+                VectorIndependiente = Enumerable.Repeat(0.0, 4).ToList(),
+                Incognitas = Enumerable.Repeat(0.0, 4).ToList()
+            };
+
+            return View("GaussJordan", model);
+        }
+
+        [HttpPost]
+        public IActionResult Ajustar(int size)
+        {
+            var model = new EcuacionesModel
+            {
+                Matriz = Enumerable.Range(0, size)
+                       .Select(_ => Enumerable.Repeat(0.0, size).ToList())
+                       .ToList(),
+                VectorIndependiente = Enumerable.Repeat(0.0, size).ToList(),
+                Incognitas = Enumerable.Repeat(0.0, size).ToList()
+            };
+
+            return View("GaussJordan", model);
         }
 
         [HttpPost]
@@ -22,11 +44,20 @@ namespace AnlisisNumericoWeb.Controllers
         {
             try
             {
-                double[] resultado;
+                if (model.Matriz == null || model.VectorIndependiente == null)
+                    throw new Exception("Datos incompletos");
+
+                if (model.Matriz.Count != model.VectorIndependiente.Count)
+                    throw new Exception("La cantidad de filas de la matriz y del vector no coincide");
+
+                List<double> resultado;
 
                 if (model.Metodo.ToLower() == "gauss-jordan")
                 {
-                    resultado = EcuacionesService.SistemasEcuaciones.GaussJordan(model.Matriz, model.VectorIndependiente);
+                    resultado = EcuacionesService.SistemasEcuaciones.GaussJordan(
+                        model.Matriz,
+                        model.VectorIndependiente
+                    );
                 }
                 else if (model.Metodo.ToLower() == "gauss-seidel")
                 {
@@ -42,6 +73,7 @@ namespace AnlisisNumericoWeb.Controllers
                     throw new Exception("Método no válido.");
                 }
 
+                model.Incognitas = resultado;
                 ViewBag.Solucion = resultado;
             }
             catch (Exception ex)
@@ -49,7 +81,7 @@ namespace AnlisisNumericoWeb.Controllers
                 ViewBag.Error = "Ocurrió un error al resolver el sistema: " + ex.Message;
             }
 
-            return View("Index", model);
+            return View("GaussJordan", model);
         }
     }
 }

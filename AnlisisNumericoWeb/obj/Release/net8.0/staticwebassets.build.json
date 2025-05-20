@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SANh9ZfmEwnbrh+jB286ZN6u6W3eo6BLEHDIi4ueOqA=",
+  "Hash": "LmapUKpzIO5bLRDvpBDXurmnXnIFAA7X/AAG2RGlB8E=",
   "Source": "AnlisisNumericoWeb",
   "BasePath": "_content/AnlisisNumericoWeb",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\AnlisisNumericoWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\css\\Ecuaciones.css",
+      "SourceId": "AnlisisNumericoWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\",
+      "BasePath": "_content/AnlisisNumericoWeb",
+      "RelativePath": "css/Ecuaciones.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Ecuaciones.css"
     },
     {
       "Identity": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\css\\raices.css",

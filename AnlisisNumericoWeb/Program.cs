@@ -31,6 +31,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Raices}/{action=Biseccion}/{id?}");
+    pattern: "{controller=Ecuaciones}/{action=Index}/{id?}");
 
 app.Run();

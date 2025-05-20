@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "zwqgZVpgC2XayqasXazO4KKvLmBkZM6xdeRMBUMUhjBZYhHnziP/4z3Vcigclqa68BtA7UZe/22oyqFIAeu5yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\AnlisisNumericoWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\herna\\.nuget\\packages\\dynamicexpresso.core\\2.19.0\\dynamicexpresso.core.2.19.0.nupkg.sha512",
+    "C:\\Users\\herna\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\herna\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.5\\microsoft.netcore.app.runtime.win-x86.8.0.5.nupkg.sha512",
+    "C:\\Users\\herna\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.5\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.5.nupkg.sha512",
+    "C:\\Users\\herna\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.5\\microsoft.aspnetcore.app.runtime.win-x86.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -5,7 +5,7 @@ let fun = "";
 
 window.addEventListener("load", function () {
 
-    const input = document.getElementById('funcion-biseccion');
+    const input = document.getElementById('funcion');
     if (input) {
         fun = input.value;
     }
@@ -40,7 +40,7 @@ window.addEventListener("load", function () {
 });
 
 window.addEventListener('DOMContentLoaded', function () {
-    const input = document.getElementById('funcion-biseccion');
+    const input = document.getElementById('funcion');
     if (input) {
         input.addEventListener('blur', function () {
             var fun = input.value;

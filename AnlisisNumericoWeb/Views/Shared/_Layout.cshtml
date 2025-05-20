@@ -13,14 +13,17 @@
     <header>
         <div class="menu-container">
             <div class="menu-item" onclick="toggleSubmenu()">Raíces de funciones ▾</div>
-            <a class="sub-menu" id="submenu" style="display: none; margin-left: 20px;">
+
+            <!-- Usar div en vez de <a> para envolver -->
+            <div class="sub-menu" id="submenu" style="display: none; margin-left: 20px;">
                 <a class="menu-item" asp-controller="Raices" asp-action="Biseccion">Bisección</a>
                 <a class="menu-item" asp-controller="Raices" asp-action="ReglaFalsa">Regla Falsa</a>
                 <a class="menu-item" asp-controller="Raices" asp-action="Tangente">Newton-Raphson</a>
                 <a class="menu-item" asp-controller="Raices" asp-action="Secante">Secante</a>
             </div>
+            <a class="menu-item" asp-controller="Ecuaciones" asp-action="Index">Ecuaciones ▾</a>
+
         </div>
-        
     </header>
     @if (ViewBag.Error != null)
     {

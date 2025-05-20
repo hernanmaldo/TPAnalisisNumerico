@@ -8,9 +8,9 @@ body {
 
 .menu-container {
     display: flex;
-    flex-direction: row; /* Cambiado a 'row' para que los ítems se alineen horizontalmente */
-    align-items: center; /* Alineación centrada */
-    background-color: #1a1608; /* fondo del menú */
+    flex-direction: row; 
+    align-items: center;
+    background-color: #1a1608; 
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
@@ -95,8 +95,9 @@ input, label {
     display: flex;
 
 }
-
-.resultado{
-    display: flex
+.resultado {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
 }
 

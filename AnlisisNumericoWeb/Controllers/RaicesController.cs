@@ -20,6 +20,8 @@ namespace AnlisisNumericoWeb.Controllers
         [HttpGet]
         public IActionResult Biseccion()
         {
+
+            Debug.WriteLine("Pete");
             return View();
         }
 
