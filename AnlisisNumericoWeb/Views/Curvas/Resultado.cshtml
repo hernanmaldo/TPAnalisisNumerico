@@ -1,0 +1,16 @@
+﻿@model AnlisisNumericoWeb.Models.CurvasModel
+
+<h2>Resultado del Ajuste - @Model.Resultado.Tipo</h2>
+
+<p><strong>Función:</strong> @Model.Resultado.Funcion</p>
+
+@if (Model.Puntos?.Any() == true)
+{
+    <h4>Puntos utilizados:</h4>
+    <ul>
+        @foreach (var punto in Model.Puntos)
+        {
+            <li>(@punto.X, @punto.Y)</li>
+        }
+    </ul>
+}

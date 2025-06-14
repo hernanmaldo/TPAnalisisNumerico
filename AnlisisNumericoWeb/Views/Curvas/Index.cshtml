@@ -1,0 +1,33 @@
+﻿@model AnlisisNumericoWeb.Models.CurvasModel
+
+@{
+    ViewData["Title"] = "Ajuste de Curvas";
+}
+
+<h2>Ajuste de Curvas</h2>
+
+<form asp-action="Calcular" method="post">
+    <div>
+        <label>Tipo de Ajuste:</label>
+        <select asp-for="TipoAjuste">
+            <option value="Lineal">Lineal</option>
+            <option value="Polinomial">Polinomial</option>
+        </select>
+    </div>
+
+    <h4>Puntos:</h4>
+    <table>
+        <thead><tr><th>X</th><th>Y</th></tr></thead>
+        <tbody>
+            @for (int i = 0; i < Model.Puntos.Count; i++)
+            {
+                <tr>
+                    <td><input asp-for="Puntos[@i].X" /></td>
+                    <td><input asp-for="Puntos[@i].Y" /></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="submit">Calcular</button>
+</form>
