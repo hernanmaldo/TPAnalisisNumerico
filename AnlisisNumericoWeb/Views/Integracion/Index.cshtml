@@ -1,0 +1,78 @@
+﻿@model AnlisisNumericoWeb.Models.IntegracionModel
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Métodos Numéricos</title>
+    <link rel="stylesheet" href="~/css/Integracion.css" />
+</head>
+<body>
+    <div class="container">
+        <form asp-action="Resultado" method="post">
+            <div class="form-section">
+                <label for="Funcion" style="color: white;">Función:</label>
+                <input type="text" id="Funcion" name="Funcion" asp-for="Funcion" required />
+
+                <label for="LimiteInferior" style="color: white;">Límite inferior:</label>
+                <input type="number" step="any" id="LimiteInferior" name="LimiteInferior" asp-for="LimiteInferior" required />
+
+                <label for="LimiteSuperior" style="color: white;">Límite superior:</label>
+                <input type="number" step="any" id="LimiteSuperior" name="LimiteSuperior" asp-for="LimiteSuperior" required />
+
+                <label for="NumeroIntervalos" id="labelIntervalos" style="color: white;">Número de intervalos:</label>
+                <input type="number" id="NumeroIntervalos" name="NumeroIntervalos" asp-for="NumeroIntervalos" min="1" required />
+
+                <label for="Metodo" style="color: white;">Método:</label>
+                <select id="Metodo" name="Metodo" asp-for="Metodo" onchange="toggleIntervalos()">
+                    <option value="trapecio_simple">Trapecio Simple</option>
+                    <option value="trapecio_multiple">Trapecio Múltiple</option>
+                    <option value="simpson13_simple">Simpson 1/3 Simple</option>
+                    <option value="simpson13_multiple">Simpson 1/3 Múltiple</option>
+                    <option value="simpson38">Simpson 3/8</option>
+                </select>
+
+                <button type="submit" class="calculate-btn">Calcular</button>
+            </div>
+        </form>
+
+        <div class="result-section">
+            <h2>Resultado</h2>
+            @if (Model.Resultado != 0)
+            {
+                <p>Área aproximada: <strong>@Model.Resultado</strong></p>
+            }
+            else
+            {
+                <p>No se ha calculado ninguna integral todavía.</p>
+            }
+            <canvas id="grafico"></canvas>
+        </div>
+    </div>
+
+    <script>
+        function toggleIntervalos() {
+            const metodo = document.getElementById('Metodo').value;
+            const label = document.getElementById('labelIntervalos');
+            const input = document.getElementById('NumeroIntervalos');
+
+            // Métodos que sí necesitan número de intervalos
+            const metodosConIntervalos = ['trapecio_multiple', 'simpson13_multiple'];
+
+            if (metodosConIntervalos.includes(metodo)) {
+                label.style.display = 'block';
+                input.style.display = 'block';
+                input.required = true;
+            } else {
+                label.style.display = 'none';
+                input.style.display = 'none';
+                input.required = false;
+                input.value = '';
+            }
+        }
+
+        // Para que funcione al cargar la página
+        document.addEventListener('DOMContentLoaded', toggleIntervalos);
+    </script>
+</body>
+</html>

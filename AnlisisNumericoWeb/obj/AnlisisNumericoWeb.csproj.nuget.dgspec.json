@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\AnlisisNumericoWeb.csproj": {}
+    "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\AnlisisNumericoWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\AnlisisNumericoWeb.csproj": {
+    "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\AnlisisNumericoWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\AnlisisNumericoWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\AnlisisNumericoWeb.csproj",
         "projectName": "AnlisisNumericoWeb",
-        "projectPath": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\AnlisisNumericoWeb.csproj",
-        "packagesPath": "C:\\Users\\herna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\obj\\",
+        "projectPath": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\AnlisisNumericoWeb.csproj",
+        "packagesPath": "C:\\Users\\Vicky\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\herna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vicky\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +51,11 @@
           "dependencies": {
             "DynamicExpresso.Core": {
               "target": "Package",
-              "version": "[2.19.0, )"
+              "version": "[2.19.2, )"
+            },
+            "NCalcSync": {
+              "target": "Package",
+              "version": "[5.4.2, )"
             }
           },
           "imports": [
@@ -74,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

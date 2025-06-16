@@ -1,105 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\models\\ecuacionesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:models\\ecuacionesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\views\\integracion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\integracion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\wwwroot\\css\\ecuaciones.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:wwwroot\\css\\ecuaciones.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\service\\integracionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:service\\integracionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\service\\ecuacionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:service\\ecuacionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\controllers\\ecuacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:controllers\\ecuacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\views\\ecuaciones\\gaussjordan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\ecuaciones\\gaussjordan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\wwwroot\\css\\raices.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:wwwroot\\css\\raices.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\wwwroot\\js\\raices.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:wwwroot\\js\\raices.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\views\\raices\\biseccion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\raices\\biseccion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\herna\\AppData\\Local\\Temp\\.vsdbgsrc\\2821a3be9267feb094ff6a782149546abb8e375aba0b6f9beccd8fa1c0d3647d\\TagHelperExecutionContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\views\\raices\\tangente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\raices\\tangente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\service\\raicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:service\\raicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\service\\calculus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:service\\calculus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\views\\raices\\secante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\raices\\secante.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\views\\raices\\reglafalsa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\raices\\reglafalsa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\models\\raizdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:models\\raizdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\models\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:models\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\wwwroot\\js\\geogebra.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:wwwroot\\js\\geogebra.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\models\\integracionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:models\\integracionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -109,356 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GaussJordan.cshtml",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Ecuaciones\\GaussJordan.cshtml",
-              "RelativeDocumentMoniker": "Views\\Ecuaciones\\GaussJordan.cshtml",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Ecuaciones\\GaussJordan.cshtml",
-              "RelativeToolTip": "Views\\Ecuaciones\\GaussJordan.cshtml",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwDkAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T12:39:56.874Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EcuacionesModel.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\EcuacionesModel.cs",
-              "RelativeDocumentMoniker": "Models\\EcuacionesModel.cs",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\EcuacionesModel.cs",
-              "RelativeToolTip": "Models\\EcuacionesModel.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAgwB8AAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "IntegracionService.cs",
+              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\IntegracionService.cs",
+              "RelativeDocumentMoniker": "Service\\IntegracionService.cs",
+              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\IntegracionService.cs",
+              "RelativeToolTip": "Service\\IntegracionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:25:44.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "raices.css",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\css\\raices.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\raices.css",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\css\\raices.css",
-              "RelativeToolTip": "wwwroot\\css\\raices.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-06T21:26:12.713Z",
+              "WhenOpened": "2025-06-14T14:23:55.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T12:13:45.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ecuaciones.css",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\css\\Ecuaciones.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Ecuaciones.css",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\css\\Ecuaciones.css",
-              "RelativeToolTip": "wwwroot\\css\\Ecuaciones.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-17T12:41:49.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAcwCMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:33:23.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EcuacionesService.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\EcuacionesService.cs",
-              "RelativeDocumentMoniker": "Service\\EcuacionesService.cs",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\EcuacionesService.cs",
-              "RelativeToolTip": "Service\\EcuacionesService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:26:03.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EcuacionesController.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\EcuacionesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EcuacionesController.cs",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\EcuacionesController.cs",
-              "RelativeToolTip": "Controllers\\EcuacionesController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAuwD0AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:40:46.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "raices.js",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\raices.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\raices.js",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\raices.js",
-              "RelativeToolTip": "wwwroot\\js\\raices.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-06T20:22:01.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-20T12:13:27.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-20T12:11:09.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Biseccion.cshtml",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Raices\\Biseccion.cshtml",
-              "RelativeDocumentMoniker": "Views\\Raices\\Biseccion.cshtml",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Raices\\Biseccion.cshtml",
-              "RelativeToolTip": "Views\\Raices\\Biseccion.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T20:21:55.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TagHelperExecutionContext.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\AppData\\Local\\Temp\\.vsdbgsrc\\2821a3be9267feb094ff6a782149546abb8e375aba0b6f9beccd8fa1c0d3647d\\TagHelperExecutionContext.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2821a3be9267feb094ff6a782149546abb8e375aba0b6f9beccd8fa1c0d3647d\\TagHelperExecutionContext.cs",
-              "ToolTip": "C:\\Users\\herna\\AppData\\Local\\Temp\\.vsdbgsrc\\2821a3be9267feb094ff6a782149546abb8e375aba0b6f9beccd8fa1c0d3647d\\TagHelperExecutionContext.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\2821a3be9267feb094ff6a782149546abb8e375aba0b6f9beccd8fa1c0d3647d\\TagHelperExecutionContext.cs",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAEwHMAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:34:26.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Tangente.cshtml",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Raices\\Tangente.cshtml",
-              "RelativeDocumentMoniker": "Views\\Raices\\Tangente.cshtml",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Raices\\Tangente.cshtml",
-              "RelativeToolTip": "Views\\Raices\\Tangente.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T20:22:52.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RaicesService.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\RaicesService.cs",
-              "RelativeDocumentMoniker": "Service\\RaicesService.cs",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\RaicesService.cs",
-              "RelativeToolTip": "Service\\RaicesService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCAAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:59:15.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Integracion\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Index.cshtml",
+              "RelativeToolTip": "Views\\Integracion\\Index.cshtml",
+              "ViewState": "AQIAADgAAAAAAAAAAAAiwE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T14:16:54.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Calculus.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\Calculus.cs",
-              "RelativeDocumentMoniker": "Service\\Calculus.cs",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\Calculus.cs",
-              "RelativeToolTip": "Service\\Calculus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T13:12:47.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T12:40:07.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FolderProfile.pubxml",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Properties\\PublishProfiles\\FolderProfile.pubxml",
-              "RelativeDocumentMoniker": "Properties\\PublishProfiles\\FolderProfile.pubxml",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Properties\\PublishProfiles\\FolderProfile.pubxml",
-              "RelativeToolTip": "Properties\\PublishProfiles\\FolderProfile.pubxml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-04-22T22:08:40.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GeoGebra.js",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\GeoGebra.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\GeoGebra.js",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\GeoGebra.js",
-              "RelativeToolTip": "wwwroot\\js\\GeoGebra.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-21T20:49:17.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ReglaFalsa.cshtml",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Raices\\ReglaFalsa.cshtml",
-              "RelativeDocumentMoniker": "Views\\Raices\\ReglaFalsa.cshtml",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Raices\\ReglaFalsa.cshtml",
-              "RelativeToolTip": "Views\\Raices\\ReglaFalsa.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACsAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T20:22:39.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Secante.cshtml",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Raices\\Secante.cshtml",
-              "RelativeDocumentMoniker": "Views\\Raices\\Secante.cshtml",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Raices\\Secante.cshtml",
-              "RelativeToolTip": "Views\\Raices\\Secante.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T20:22:38.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RaizData.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\RaizData.cs",
-              "RelativeDocumentMoniker": "Models\\RaizData.cs",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\RaizData.cs",
-              "RelativeToolTip": "Models\\RaizData.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBYAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T20:21:47.439Z",
+              "WhenOpened": "2025-06-14T14:04:54.491Z",
               "EditorCaption": ""
             },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "Models\\Service.cs",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\Service.cs",
-              "RelativeToolTip": "Models\\Service.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T21:15:40.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ISErvice.cs",
-              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\ISErvice.cs",
-              "RelativeDocumentMoniker": "Models\\ISErvice.cs",
-              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\ISErvice.cs",
-              "RelativeToolTip": "Models\\ISErvice.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T21:15:42.57Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 11,
-          "SelectedChildIndex": -1,
-          "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IntegracionController.cs",
+              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\IntegracionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IntegracionController.cs",
+              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\IntegracionController.cs",
+              "RelativeToolTip": "Controllers\\IntegracionController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwDEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:16:01.634Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IntegracionModel.cs",
+              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\IntegracionModel.cs",
+              "RelativeDocumentMoniker": "Models\\IntegracionModel.cs",
+              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\IntegracionModel.cs",
+              "RelativeToolTip": "Models\\IntegracionModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T13:00:23.762Z",
+              "EditorCaption": ""
             }
           ]
         }
