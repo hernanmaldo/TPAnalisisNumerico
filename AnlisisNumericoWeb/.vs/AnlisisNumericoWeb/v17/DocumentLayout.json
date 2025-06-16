@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\views\\integracion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\integracion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\service\\integracionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:service\\integracionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\views\\integracion\\resultado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\integracion\\resultado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\models\\integracionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:models\\integracionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,59 +25,46 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IntegracionService.cs",
-              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\IntegracionService.cs",
-              "RelativeDocumentMoniker": "Service\\IntegracionService.cs",
-              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\IntegracionService.cs",
-              "RelativeToolTip": "Service\\IntegracionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T14:23:55.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Integracion\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Index.cshtml",
-              "RelativeToolTip": "Views\\Integracion\\Index.cshtml",
-              "ViewState": "AQIAADgAAAAAAAAAAAAiwE4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-14T14:04:54.491Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Resultado.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Resultado.cshtml",
+              "RelativeDocumentMoniker": "Views\\Integracion\\Resultado.cshtml",
+              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Resultado.cshtml",
+              "RelativeToolTip": "Views\\Integracion\\Resultado.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T18:18:16.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IntegracionController.cs",
               "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\IntegracionController.cs",
               "RelativeDocumentMoniker": "Controllers\\IntegracionController.cs",
               "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\IntegracionController.cs",
               "RelativeToolTip": "Controllers\\IntegracionController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAwDEAAAAnAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T13:16:01.634Z",
+              "WhenOpened": "2025-06-16T18:14:56.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IntegracionModel.cs",
-              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\IntegracionModel.cs",
-              "RelativeDocumentMoniker": "Models\\IntegracionModel.cs",
-              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\IntegracionModel.cs",
-              "RelativeToolTip": "Models\\IntegracionModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T13:00:23.762Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Integracion\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Index.cshtml",
+              "RelativeToolTip": "Views\\Integracion\\Index.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAADYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T14:04:54.491Z",
               "EditorCaption": ""
             }
           ]

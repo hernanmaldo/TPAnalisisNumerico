@@ -9,10 +9,27 @@ namespace AnlisisNumericoWeb.Service
     {
         public CurvaResult Calcular(List<Punto> puntos, string tipo)
         {
+
+
             if (tipo == "Polinomial")
+            {
+
+                if (puntos.Count < 3)
+                {
+                    throw new ArgumentException("Se requieren como minimo 3 puntos");
+                }
                 return CalcularPolinomial(puntos);
+
+            }
             else
+            {
+                if (puntos.Count < 2)
+                {
+                    throw new ArgumentException("Se requieren como minimo 2 puntos");
+                }
                 return CalcularLineal(puntos);
+            }
+                
         }
 
         private CurvaResult CalcularLineal(List<Punto> puntos)
@@ -26,11 +43,22 @@ namespace AnlisisNumericoWeb.Service
             double pendiente = (n * sumXY - sumX * sumY) / (n * sumX2 - sumX * sumX);
             double ordenada = (sumY - pendiente * sumX) / n;
 
+            double St = 0;
+            double Sr = 0;
+            foreach(var punto in puntos)
+            {
+                St += Math.Pow(((sumY / n) - punto.Y),2);
+                Sr += Math.Pow((pendiente * punto.X + ordenada - punto.Y),2);
+            }
+
+            double r = Math.Sqrt((St - Sr) / St) * 100;
+
             return new CurvaResult
             {
                 Coeficientes = new double[] { pendiente, ordenada },
                 Funcion = $"y = {pendiente:F2}x + {ordenada:F2}",
-                Tipo = "Lineal"
+                Tipo = "Lineal",
+                Correlacion = Math.Round(r, 2)
             };
         }
 
@@ -67,11 +95,30 @@ namespace AnlisisNumericoWeb.Service
 
             double[] coef = ResolverSistema3x3(A, B);
 
+            double St = 0;
+            double Sr = 0;
+            foreach (var punto in puntos)
+            {
+                double suma = 0;
+                for(int i = 0; coef.Count() > i; i++)
+                {
+                    suma += coef[i] * Math.Pow(punto.X , i);
+                    
+                }
+
+                St += Math.Pow(((sumY / n) - punto.Y), 2);
+                Sr += Math.Pow((suma- punto.Y), 2);
+            }
+
+
+            double r = Math.Sqrt((St - Sr) / St) * 100;
+
             return new CurvaResult
             {
                 Coeficientes = coef,
                 Funcion = $"y = {coef[2]:F2}x² + {coef[1]:F2}x + {coef[0]:F2}",
-                Tipo = "Polinomial"
+                Tipo = "Polinomial",
+                Correlacion = Math.Round(r,2),
             };
         }
 
