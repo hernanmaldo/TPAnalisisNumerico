@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dcqznA5oyFU+1Jv3BIhg3Lv+QhJcV3vzGf5rWS8WTCI=",
+  "Hash": "MZ1Dxl7o0+fG9qLtLxcP1xlmy3DyV9Gj4os/8OjXTNA=",
   "Source": "AnlisisNumericoWeb",
   "BasePath": "_content/AnlisisNumericoWeb",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\Curvas.js",
+      "SourceId": "AnlisisNumericoWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\",
+      "BasePath": "_content/AnlisisNumericoWeb",
+      "RelativePath": "js/Curvas.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Curvas.js"
     },
     {
       "Identity": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\GeoGebra.js",

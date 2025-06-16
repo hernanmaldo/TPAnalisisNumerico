@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\Curvas.js",
+      "PackagePath": "staticwebassets\\js\\Curvas.js"
+    },
+    {
       "Id": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\wwwroot\\js\\GeoGebra.js",
       "PackagePath": "staticwebassets\\js\\GeoGebra.js"
     },
