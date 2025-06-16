@@ -7,5 +7,6 @@ namespace AnlisisNumericoWeb.Models
         public string Funcion { get; set; }
         public double[] Coeficientes { get; set; }
         public string Tipo { get; set; }
+        public double Correlacion {  get; set; }
     }
 }

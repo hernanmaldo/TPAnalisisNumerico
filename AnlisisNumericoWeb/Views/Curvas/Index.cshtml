@@ -2,9 +2,129 @@
 
 @{
     ViewData["Title"] = "Ajuste de Curvas";
+
+
+    int minimo = Model.TipoAjuste == "Polinomial" ? 3 : 2;
+    while (Model.Puntos.Count < minimo)
+    {
+        Model.Puntos.Add(new Punto());
+    }
 }
 
+<div style="display: flex; gap: 50px;">
+    <div>
+        <h2>Ajuste de Curvas</h2>
+
+        <form asp-action="Calcular" method="post">
+            <div>
+                <label>Tipo de Ajuste:</label>
+                <select asp-for="TipoAjuste">
+                    <option value="Lineal">Lineal</option>
+                    <option value="Polinomial">Polinomial</option>
+                </select>
+            </div>
+
+            <h4>Puntos:</h4>
+            <table id="tabla-puntos">
+                <thead>
+                    <tr>
+                        <th>X</th>
+                        <th>Y</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.Puntos.Count; i++)
+                    {
+                        <tr>
+                            <td><input name="Puntos[@i].x" /></td>
+                            <td><input name="Puntos[@i].y" /></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <button type="button" onclick="agregarFila()">Agregar fila</button>
+            <button type="button" onclick="quitarFila()">Quitar fila</button>
+            <br /><br />
+            <button type="submit">Calcular</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Resultado del Ajuste - @Model.Resultado?.Tipo</h2>
+
+        <p><strong>Función:</strong> @Model.Resultado?.Funcion</p>
+        <p><strong>Correlacion:</strong> @Model.Resultado?.Correlacion</p>
+
+        @if (Model.Puntos?.Any() == true)
+        {
+            <h4>Puntos utilizados:</h4>
+            <ul>
+                @foreach (var punto in Model.Puntos)
+                {
+                    <li>(@punto.X, @punto.Y)</li>
+                }
+            </ul>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        let index = @Model.Puntos.Count;
+
+        function agregarFila() {
+            const tabla = document.getElementById('tabla-puntos').getElementsByTagName('tbody')[0];
+            const fila = document.createElement('tr');
+
+            fila.innerHTML = `
+                <td><input name="Puntos[${index}].X" /></td>
+                <td><input name="Puntos[${index}].Y" /></td>
+            `;
+
+            tabla.appendChild(fila);
+            index++;
+        }
+        function quitarFila() {
+            const tabla = document.getElementById('tabla-puntos').getElementsByTagName('tbody')[0];
+            if (tabla.rows.length > 2) {
+                tabla.deleteRow(tabla.rows.length - 1);
+                index--;
+            } else {
+                alert("Debe haber al menos dos puntos.");
+            }
+        }
+
+        document.querySelector('select[name="TipoAjuste"]').addEventListener('change', function () {
+            const tabla = document.getElementById('tabla-puntos').getElementsByTagName('tbody')[0];
+            const tipo = this.value;
+            const minimo = tipo === "Polinomial" ? 3 : 2;
+
+
+            while (tabla.rows.length < minimo) {
+                agregarFila();
+            }
+        });
+    </script>
+}
+
+
+
+
+@*
+    
+
+
+@model AnlisisNumericoWeb.Models.CurvasModel
+
+@{
+    ViewData["Title"] = "Ajuste de Curvas";
+}
+<div style="display: flex">
+    <div>
 <h2>Ajuste de Curvas</h2>
+
+
 
 <form asp-action="Calcular" method="post">
     <div>
@@ -17,7 +137,12 @@
 
     <h4>Puntos:</h4>
     <table>
-        <thead><tr><th>X</th><th>Y</th></tr></thead>
+        <thead>
+            <tr>
+                <th>X</th>
+                <th>Y</th>
+            </tr>
+        </thead>
         <tbody>
             @for (int i = 0; i < Model.Puntos.Count; i++)
             {
@@ -31,3 +156,21 @@
 
     <button type="submit">Calcular</button>
 </form>
+</div>
+<div>
+<h2>Resultado del Ajuste - @Model.Resultado.Tipo</h2>
+
+<p><strong>Función:</strong> @Model.Resultado.Funcion</p>
+
+@if (Model.Puntos?.Any() == true)
+{
+    <h4>Puntos utilizados:</h4>
+    <ul>
+        @foreach (var punto in Model.Puntos)
+        {
+            <li>(@punto.X, @punto.Y)</li>
+        }
+    </ul>
+}
+    </div>
+</div> *@

@@ -14,14 +14,24 @@ namespace AnlisisNumericoWeb.Controllers
 
         public IActionResult Index()
         {
-            return View(new CurvasModel());
+            var curvasmodel = new CurvasModel();
+
+            return View(curvasmodel);
         }
 
         [HttpPost]
         public IActionResult Calcular(CurvasModel model)
         {
-            model.Resultado = _service.Calcular(model.Puntos, model.TipoAjuste);
-            return View("Resultado", model);
+            try
+            {
+                model.Resultado = _service.Calcular(model.Puntos, model.TipoAjuste);
+          
+            }catch (Exception ex) 
+            {
+                ViewBag.Error = ex.Message;
+            }
+
+            return View("Index", model);
         }
     }
 }
