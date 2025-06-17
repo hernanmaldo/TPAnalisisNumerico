@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\views\\integracion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\service\\integracionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:service\\integracionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\views\\integracion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\integracion\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\views\\integracion\\resultado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\integracion\\resultado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\vicky\\onedrive\\documentos\\github\\tpanalisisnumerico\\anlisisnumericoweb\\controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:controllers\\integracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\models\\integracionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:models\\integracionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|c:\\users\\herna\\onedrive\\desktop\\tpanalisisnumerico\\tpanalisisnumerico\\anlisisnumericoweb\\views\\integracion\\resultado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B83DE399-0D34-41B3-8B17-9ADDB4E63686}|AnlisisNumericoWeb.csproj|solutionrelative:views\\integracion\\resultado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,48 +34,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "IntegracionService.cs",
+              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\IntegracionService.cs",
+              "RelativeDocumentMoniker": "Service\\IntegracionService.cs",
+              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Service\\IntegracionService.cs",
+              "RelativeToolTip": "Service\\IntegracionService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAIAywBkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:34:57.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IntegracionController.cs",
+              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\IntegracionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IntegracionController.cs",
+              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\IntegracionController.cs",
+              "RelativeToolTip": "Controllers\\IntegracionController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T18:14:56.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IntegracionModel.cs",
+              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\IntegracionModel.cs",
+              "RelativeDocumentMoniker": "Models\\IntegracionModel.cs",
+              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Models\\IntegracionModel.cs",
+              "RelativeToolTip": "Models\\IntegracionModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:28:20.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Resultado.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Resultado.cshtml",
+              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Resultado.cshtml",
               "RelativeDocumentMoniker": "Views\\Integracion\\Resultado.cshtml",
-              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Resultado.cshtml",
+              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Resultado.cshtml",
               "RelativeToolTip": "Views\\Integracion\\Resultado.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-16T18:18:16.096Z"
+              "WhenOpened": "2025-06-17T17:27:47.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IntegracionController.cs",
-              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\IntegracionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\IntegracionController.cs",
-              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Controllers\\IntegracionController.cs",
-              "RelativeToolTip": "Controllers\\IntegracionController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAeAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T18:14:56.719Z"
+              "WhenOpened": "2025-06-17T15:04:10.244Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Integracion\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Vicky\\OneDrive\\Documentos\\GitHub\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Index.cshtml",
+              "ToolTip": "C:\\Users\\herna\\OneDrive\\Desktop\\TPAnalisisNumerico\\TPAnalisisNumerico\\AnlisisNumericoWeb\\Views\\Integracion\\Index.cshtml",
               "RelativeToolTip": "Views\\Integracion\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-14T14:04:54.491Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 11,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

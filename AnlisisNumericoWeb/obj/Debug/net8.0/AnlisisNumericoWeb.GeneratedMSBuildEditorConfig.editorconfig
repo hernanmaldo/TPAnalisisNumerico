@@ -9,75 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AnlisisNumericoWeb
 build_property.RootNamespace = AnlisisNumericoWeb
-build_property.ProjectDir = C:\Users\Vicky\OneDrive\Documentos\GitHub\TPAnalisisNumerico\AnlisisNumericoWeb\
+build_property.ProjectDir = C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Vicky\OneDrive\Documentos\GitHub\TPAnalisisNumerico\AnlisisNumericoWeb
+build_property.MSBuildProjectDirectory = C:\Users\herna\OneDrive\Desktop\TPAnalisisNumerico\TPAnalisisNumerico\AnlisisNumericoWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Curvas/Index.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Curvas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VydmFzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Curvas/Resultado.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Curvas/Resultado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VydmFzXFJlc3VsdGFkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Ecuaciones/GaussJordan.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Ecuaciones/GaussJordan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWN1YWNpb25lc1xHYXVzc0pvcmRhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Home/Index.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Home/Privacy.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Integracion/Index.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Integracion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZWdyYWNpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Integracion/Resultado.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Integracion/Resultado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZWdyYWNpb25cUmVzdWx0YWRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/Biseccion.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/Biseccion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFpY2VzXEJpc2VjY2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/ReglaFalsa.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/ReglaFalsa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFpY2VzXFJlZ2xhRmFsc2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/Secante.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/Secante.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFpY2VzXFNlY2FudGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/Tangente.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Raices/Tangente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFpY2VzXFRhbmdlbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Shared/Error.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/_ViewImports.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/_ViewStart.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vicky/OneDrive/Documentos/GitHub/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Shared/_Layout.cshtml]
+[C:/Users/herna/OneDrive/Desktop/TPAnalisisNumerico/TPAnalisisNumerico/AnlisisNumericoWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-l5ic7iaro5

@@ -21,7 +21,6 @@ namespace AnlisisNumericoWeb.Controllers
         public IActionResult Biseccion()
         {
 
-            Debug.WriteLine("Pete");
             return View();
         }
 

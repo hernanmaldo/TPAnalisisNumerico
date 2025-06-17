@@ -24,7 +24,7 @@ namespace AnlisisNumericoWeb.Controllers
         {
             try
             {
-                model.Resultado = _service.Calcular(model.Puntos, model.TipoAjuste);
+                model.Resultado = _service.Calcular(model.Puntos, model.TipoAjuste , 5);
           
             }catch (Exception ex) 
             {

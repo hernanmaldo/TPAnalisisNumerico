@@ -12,17 +12,18 @@ namespace AnlisisNumericoWeb.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View(new IntegracionModel());
+            return View();
         }
 
         [HttpPost]
         public IActionResult Resultado(IntegracionModel model)
         {
-            double resultado = CalcularIntegral(model);
-            model.Resultado = resultado;
-            return View(model);
-        }
+           
+                model.Resultado = CalcularIntegral(model);
+           
 
+            return View("Resultado", model); // Asegurate de tener una vista Resultado.cshtml
+        }
         private double EvaluarFuncion(string funcion, double x)
         {
             var expr = new Expression(funcion);
@@ -32,29 +33,14 @@ namespace AnlisisNumericoWeb.Controllers
 
         private double CalcularIntegral(IntegracionModel model)
         {
-            double a = model.LimiteInferior;
-            double b = model.LimiteSuperior;
-            int n = model.NumeroIntervalos;
-            double h = (b - a) / n;
+            var service = new IntegracionService();
 
-            switch (model.Metodo)
-            {
-                case "TrapecioSimple":
-                    return (EvaluarFuncion(model.Funcion, a) + EvaluarFuncion(model.Funcion, b)) * (b - a) / 2;
+            var result =   service.Calcular(model);
+            model.Resultado = result;  
 
-                case "TrapecioMultiple":
-                    double sum = 0;
-                    for (int i = 1; i < n; i++)
-                    {
-                        sum += EvaluarFuncion(model.Funcion, a + i * h);
-                    }
-                    return (h / 2) * (EvaluarFuncion(model.Funcion, a) + 2 * sum + EvaluarFuncion(model.Funcion, b));
-
-                // Agregá los otros métodos si necesitás
-
-                default:
-                    return 0;
-            }
+            return result;  
         }
+
     }
 }
+

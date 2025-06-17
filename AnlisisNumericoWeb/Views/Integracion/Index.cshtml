@@ -25,11 +25,11 @@
     <div>
         <label style="color: white;">Método:</label>
         <select asp-for="Metodo" id="metodoSelect">
-            <option value="TrapecioSimple">Trapecio Simple</option>
-            <option value="TrapecioMultiple">Trapecio Múltiple</option>
-            <option value="Simpson13">Simpson 1/3</option>
-            <option value="Simpson13Multiple">Simpson 1/3 Múltiple</option>
-            <option value="Simpson38">Simpson 3/8</option>
+            <option value="Trapecio Simple">Trapecio Simple</option>
+            <option value="Trapecio Multiple">Trapecio Multiple</option>
+            <option value="Simpson 1/3 Simple">Simpson 1/3 Simple</option>
+            <option value="Simpson 1/3 Multiple">Simpson 1/3 Multiple</option>
+            <option value="Simpson 3/8">Simpson 3/8</option>
         </select>
     </div>
 
@@ -51,7 +51,7 @@
 
         function actualizarCampoIntervalos() {
             const metodo = metodoSelect.value.trim(); // elimina espacios por si acaso
-            const metodosMultiples = ["TrapecioMultiple", "Simpson13Multiple"];
+            const metodosMultiples = ["Trapecio Multiple", "Simpson 1/3 Multiple"];
 
             if (metodosMultiples.includes(metodo)) {
                 divIntervalos.style.display = "block";

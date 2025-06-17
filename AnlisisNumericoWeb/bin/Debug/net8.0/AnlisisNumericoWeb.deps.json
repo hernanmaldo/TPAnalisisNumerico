@@ -9,7 +9,8 @@
       "AnlisisNumericoWeb/1.0.0": {
         "dependencies": {
           "DynamicExpresso.Core": "2.19.2",
-          "NCalcSync": "5.4.2"
+          "NCalcSync": "5.4.2",
+          "Calculus": "1.0.0.0"
         },
         "runtime": {
           "AnlisisNumericoWeb.dll": {}
@@ -276,6 +277,14 @@
             "fileVersion": "9.0.425.16305"
           }
         }
+      },
+      "Calculus/1.0.0.0": {
+        "runtime": {
+          "Calculus.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -445,6 +454,11 @@
       "sha512": "sha512-pYtmpcO6R3Ef1XilZEHgXP2xBPVORbYEzRP7dl0IAAbN8Dm+kfwio8aCKle97rAWXOExr292MuxWYurIuwN62g==",
       "path": "system.text.json/9.0.4",
       "hashPath": "system.text.json.9.0.4.nupkg.sha512"
+    },
+    "Calculus/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

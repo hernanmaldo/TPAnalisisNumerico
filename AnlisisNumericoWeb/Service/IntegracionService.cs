@@ -26,11 +26,11 @@ namespace AnlisisNumericoWeb.Service
             {
                 case "Trapecio Simple":
                     return TrapecioSimple(model.Funcion, a, b);
-                case "Trapecio Múltiple":
+                case "Trapecio Multiple":
                     return TrapecioMultiple(model.Funcion, a, b, n);
                 case "Simpson 1/3 Simple":
                     return Simpson13Simple(model.Funcion, a, b);
-                case "Simpson 1/3 Múltiple":
+                case "Simpson 1/3 Multiple":
                     return Simpson13Multiple(model.Funcion, a, b, n);
                 case "Simpson 3/8":
                     return Simpson38(model.Funcion, a, b);
